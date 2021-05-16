@@ -1,9 +1,11 @@
+.main{
+	
+}
 .records{
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-height: 100%;
 }
 .records > h3{
 	margin-top: 40px;
@@ -11,6 +13,7 @@
 .records__items{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
 }
 .btn__add{
     margin-right: 20px;
